@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E9FDD53B0A61829E003082B1C2FF7E2 /* Pods-LANTestTwo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76634F3E87B9DBB5C7E5D06EFF8D5844 /* Pods-LANTestTwo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3270269F91C4482D58DEDDD8640C88FD /* Pods-LANTestTwo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B61934017389AC31602FBFA7DB6D24E3 /* Pods-LANTestTwo_Example-dummy.m */; };
+		39D6BE3086C618A992FF79D8ADFD2F5C /* Pods-LANTestTwo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A39F62B1FB0F2C6C0C59F935147CE722 /* Pods-LANTestTwo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4112D0371D98018DF7C8B37E44EE90A3 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D383923700354BFF01C9E5DF2A8900A /* ReplaceMe.m */; };
+		5FA3E57E43A665A25A2E84F85B490A63 /* LANTestTwo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A908974B88202306EDB31B2681ECDAB7 /* LANTestTwo-dummy.m */; };
+		7ED80D7E86A81E2FA9B40AA848C64851 /* LANTestTwo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 749334851BF352CF1606675390258343 /* LANTestTwo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8729DF84FCD8F9FDEF336CF7CC963697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		ACA1EE9496A0F461A7C22FA82C0F6666 /* Pods-LANTestTwo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A643DEE66ABDF8E67E4EB5DFA7F8D3 /* Pods-LANTestTwo_Tests-dummy.m */; };
+		AFDC3FC1D7535B64629557B72A3F032E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B467365D35D39273E3907C41AFE72E78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EA4CE91EC08B4D1C6806307262020CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF809AEA656FECA8CF36361962DA6979;
+			remoteInfo = LANTestTwo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014CFD7A97C646919C405F4D4169A6C0 /* Pods_LANTestTwo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LANTestTwo_Tests.framework; path = "Pods-LANTestTwo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		067AB27FC3D0FAAB62FB4DBE787A5F53 /* Pods-LANTestTwo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LANTestTwo_Tests-resources.sh"; sourceTree = "<group>"; };
+		0D383923700354BFF01C9E5DF2A8900A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LANTestTwo/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		157472E5E64496EED4D8C85AA86E7EEC /* Pods-LANTestTwo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LANTestTwo_Example-frameworks.sh"; sourceTree = "<group>"; };
+		206FACAF3A9F4A8AF62D547EC5EFC715 /* Pods-LANTestTwo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LANTestTwo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		287CB165E3A7B7DEDC8C233A58498799 /* Pods-LANTestTwo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LANTestTwo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		44C343A0252BC576CFED9E4DD6DF7C28 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F7E95C649CCE7BEFC05C8D28C3300BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		565B5F86EBA0132874A65E70A555F81B /* Pods-LANTestTwo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LANTestTwo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66115555433D3B6E15C14B014006C70B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A780A1E51A1E4078FFE5C3D82481C79 /* Pods-LANTestTwo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LANTestTwo_Example.modulemap"; sourceTree = "<group>"; };
+		6D07FE9FEB31F65B2E63806E63C5CE74 /* LANTestTwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LANTestTwo.framework; path = LANTestTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		749334851BF352CF1606675390258343 /* LANTestTwo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LANTestTwo-umbrella.h"; sourceTree = "<group>"; };
+		76634F3E87B9DBB5C7E5D06EFF8D5844 /* Pods-LANTestTwo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LANTestTwo_Example-umbrella.h"; sourceTree = "<group>"; };
+		7C21702C49365D12A2C59AA5A4D155E0 /* Pods-LANTestTwo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LANTestTwo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		83889E548B632BDC685C2BFF53CE15C3 /* Pods-LANTestTwo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LANTestTwo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		83B8EE73C70CF335D97DBCB576CC8D8C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9099D6F22B4D028F069DA7C94D29AA72 /* Pods-LANTestTwo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LANTestTwo_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A643DEE66ABDF8E67E4EB5DFA7F8D3 /* Pods-LANTestTwo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LANTestTwo_Tests-dummy.m"; sourceTree = "<group>"; };
+		A39F62B1FB0F2C6C0C59F935147CE722 /* Pods-LANTestTwo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LANTestTwo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A54BCCD35F4EE3A3C69167C7CC9EBE7B /* Pods-LANTestTwo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LANTestTwo_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A908974B88202306EDB31B2681ECDAB7 /* LANTestTwo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LANTestTwo-dummy.m"; sourceTree = "<group>"; };
+		AA4C131490F956E463E577632AABDDE3 /* Pods_LANTestTwo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LANTestTwo_Example.framework; path = "Pods-LANTestTwo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EA936D76AE95396E0331931BBCE5A3 /* Pods-LANTestTwo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LANTestTwo_Example-resources.sh"; sourceTree = "<group>"; };
+		B565137606A05E909FBF900B1C69B2ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B61934017389AC31602FBFA7DB6D24E3 /* Pods-LANTestTwo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LANTestTwo_Example-dummy.m"; sourceTree = "<group>"; };
+		B9AFE934179FDA3026E5CC861AB94F92 /* Pods-LANTestTwo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LANTestTwo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C533D57F2DE80BDEDD457E8B2E9CC215 /* LANTestTwo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LANTestTwo-prefix.pch"; sourceTree = "<group>"; };
+		C575F6190D04C428C36E1B8CC69AB6E0 /* Pods-LANTestTwo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LANTestTwo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D107C558807CD6DC6F2DDD9A7D205289 /* LANTestTwo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LANTestTwo.xcconfig; sourceTree = "<group>"; };
+		D8D9EF316E4E4F1CCBABE3AE651E6E2A /* LANTestTwo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LANTestTwo.modulemap; sourceTree = "<group>"; };
+		EADBD4D61F0003316302D7BEE53FB8DE /* Pods-LANTestTwo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LANTestTwo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FFBD1C879028578A76ADDFB175290BBF /* LANTestTwo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LANTestTwo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51A10C5A3EA3F280E93817C073B3B6B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDC3FC1D7535B64629557B72A3F032E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0E973273372909D6A0B52E620F120C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8729DF84FCD8F9FDEF336CF7CC963697 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC6BD336FED9B69B28599A5DBAF15677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B467365D35D39273E3907C41AFE72E78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E89522BB28F9CEF58AE69CD28FE3DEC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FFBD1C879028578A76ADDFB175290BBF /* LANTestTwo.podspec */,
+				83B8EE73C70CF335D97DBCB576CC8D8C /* LICENSE */,
+				B565137606A05E909FBF900B1C69B2ED /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3BD1A889D7B665BE9E1FA4677E3FDCCF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F7E95C649CCE7BEFC05C8D28C3300BE /* Info.plist */,
+				D8D9EF316E4E4F1CCBABE3AE651E6E2A /* LANTestTwo.modulemap */,
+				D107C558807CD6DC6F2DDD9A7D205289 /* LANTestTwo.xcconfig */,
+				A908974B88202306EDB31B2681ECDAB7 /* LANTestTwo-dummy.m */,
+				C533D57F2DE80BDEDD457E8B2E9CC215 /* LANTestTwo-prefix.pch */,
+				749334851BF352CF1606675390258343 /* LANTestTwo-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LANTestTwo";
+			sourceTree = "<group>";
+		};
+		74888C998C65532A1AE224110A962447 /* Pods-LANTestTwo_Example */ = {
+			isa = PBXGroup;
+			children = (
+				66115555433D3B6E15C14B014006C70B /* Info.plist */,
+				6A780A1E51A1E4078FFE5C3D82481C79 /* Pods-LANTestTwo_Example.modulemap */,
+				EADBD4D61F0003316302D7BEE53FB8DE /* Pods-LANTestTwo_Example-acknowledgements.markdown */,
+				565B5F86EBA0132874A65E70A555F81B /* Pods-LANTestTwo_Example-acknowledgements.plist */,
+				B61934017389AC31602FBFA7DB6D24E3 /* Pods-LANTestTwo_Example-dummy.m */,
+				157472E5E64496EED4D8C85AA86E7EEC /* Pods-LANTestTwo_Example-frameworks.sh */,
+				B2EA936D76AE95396E0331931BBCE5A3 /* Pods-LANTestTwo_Example-resources.sh */,
+				76634F3E87B9DBB5C7E5D06EFF8D5844 /* Pods-LANTestTwo_Example-umbrella.h */,
+				206FACAF3A9F4A8AF62D547EC5EFC715 /* Pods-LANTestTwo_Example.debug.xcconfig */,
+				C575F6190D04C428C36E1B8CC69AB6E0 /* Pods-LANTestTwo_Example.release.xcconfig */,
+			);
+			name = "Pods-LANTestTwo_Example";
+			path = "Target Support Files/Pods-LANTestTwo_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9E0DE66E741C4AFF41ED044E9AE88B4F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FF4B2220DB7B2C6B8E7B0CD4D5541526 /* Products */,
+				A997BF52280DD5D97093CFBC3A8C4056 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85D53637426D8D97D323BB32484981CA /* Pods-LANTestTwo_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				44C343A0252BC576CFED9E4DD6DF7C28 /* Info.plist */,
+				9099D6F22B4D028F069DA7C94D29AA72 /* Pods-LANTestTwo_Tests.modulemap */,
+				83889E548B632BDC685C2BFF53CE15C3 /* Pods-LANTestTwo_Tests-acknowledgements.markdown */,
+				7C21702C49365D12A2C59AA5A4D155E0 /* Pods-LANTestTwo_Tests-acknowledgements.plist */,
+				93A643DEE66ABDF8E67E4EB5DFA7F8D3 /* Pods-LANTestTwo_Tests-dummy.m */,
+				A54BCCD35F4EE3A3C69167C7CC9EBE7B /* Pods-LANTestTwo_Tests-frameworks.sh */,
+				067AB27FC3D0FAAB62FB4DBE787A5F53 /* Pods-LANTestTwo_Tests-resources.sh */,
+				A39F62B1FB0F2C6C0C59F935147CE722 /* Pods-LANTestTwo_Tests-umbrella.h */,
+				287CB165E3A7B7DEDC8C233A58498799 /* Pods-LANTestTwo_Tests.debug.xcconfig */,
+				B9AFE934179FDA3026E5CC861AB94F92 /* Pods-LANTestTwo_Tests.release.xcconfig */,
+			);
+			name = "Pods-LANTestTwo_Tests";
+			path = "Target Support Files/Pods-LANTestTwo_Tests";
+			sourceTree = "<group>";
+		};
+		9BCA5B1531C17ABA46438A52EB4606B0 /* LANTestTwo */ = {
+			isa = PBXGroup;
+			children = (
+				0D383923700354BFF01C9E5DF2A8900A /* ReplaceMe.m */,
+				0E89522BB28F9CEF58AE69CD28FE3DEC /* Pod */,
+				3BD1A889D7B665BE9E1FA4677E3FDCCF /* Support Files */,
+			);
+			name = LANTestTwo;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9E0DE66E741C4AFF41ED044E9AE88B4F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BCA5B1531C17ABA46438A52EB4606B0 /* LANTestTwo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A997BF52280DD5D97093CFBC3A8C4056 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74888C998C65532A1AE224110A962447 /* Pods-LANTestTwo_Example */,
+				85D53637426D8D97D323BB32484981CA /* Pods-LANTestTwo_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FF4B2220DB7B2C6B8E7B0CD4D5541526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D07FE9FEB31F65B2E63806E63C5CE74 /* LANTestTwo.framework */,
+				AA4C131490F956E463E577632AABDDE3 /* Pods_LANTestTwo_Example.framework */,
+				014CFD7A97C646919C405F4D4169A6C0 /* Pods_LANTestTwo_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0DA9360D16EFF7225BB4F4E9329A1B7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ED80D7E86A81E2FA9B40AA848C64851 /* LANTestTwo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D58E9694C9435F6A4CCBA13F35B84C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E9FDD53B0A61829E003082B1C2FF7E2 /* Pods-LANTestTwo_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9D0CD6CF34A01D167FD8A00E95D745 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D6BE3086C618A992FF79D8ADFD2F5C /* Pods-LANTestTwo_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		44606FF096B0C8A400D551D1D7AC52A5 /* Pods-LANTestTwo_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B2E529070F73040C977944F3BD121D /* Build configuration list for PBXNativeTarget "Pods-LANTestTwo_Tests" */;
+			buildPhases = (
+				0EC6B8CC1244E8A9F4CF4E45A9134CC7 /* Sources */,
+				9F0E973273372909D6A0B52E620F120C /* Frameworks */,
+				EB9D0CD6CF34A01D167FD8A00E95D745 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LANTestTwo_Tests";
+			productName = "Pods-LANTestTwo_Tests";
+			productReference = 014CFD7A97C646919C405F4D4169A6C0 /* Pods_LANTestTwo_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C9AB40DC962F799E14F557BB096BBA3 /* Pods-LANTestTwo_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3941A837315FACDAAA319CBF96F3EB2 /* Build configuration list for PBXNativeTarget "Pods-LANTestTwo_Example" */;
+			buildPhases = (
+				74C97D2FD9F90B75ED92C65D9EDC37FA /* Sources */,
+				51A10C5A3EA3F280E93817C073B3B6B5 /* Frameworks */,
+				7D58E9694C9435F6A4CCBA13F35B84C8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				374CF1E2B74123843E610EEDAB03AF26 /* PBXTargetDependency */,
+			);
+			name = "Pods-LANTestTwo_Example";
+			productName = "Pods-LANTestTwo_Example";
+			productReference = AA4C131490F956E463E577632AABDDE3 /* Pods_LANTestTwo_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF809AEA656FECA8CF36361962DA6979 /* LANTestTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E510DE1A05754888A45CBF3D6DA8487 /* Build configuration list for PBXNativeTarget "LANTestTwo" */;
+			buildPhases = (
+				35BAB0B8F454CB72A2FE2268FDE581F4 /* Sources */,
+				AC6BD336FED9B69B28599A5DBAF15677 /* Frameworks */,
+				0DA9360D16EFF7225BB4F4E9329A1B7F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LANTestTwo;
+			productName = LANTestTwo;
+			productReference = 6D07FE9FEB31F65B2E63806E63C5CE74 /* LANTestTwo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FF4B2220DB7B2C6B8E7B0CD4D5541526 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF809AEA656FECA8CF36361962DA6979 /* LANTestTwo */,
+				8C9AB40DC962F799E14F557BB096BBA3 /* Pods-LANTestTwo_Example */,
+				44606FF096B0C8A400D551D1D7AC52A5 /* Pods-LANTestTwo_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EC6B8CC1244E8A9F4CF4E45A9134CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA1EE9496A0F461A7C22FA82C0F6666 /* Pods-LANTestTwo_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35BAB0B8F454CB72A2FE2268FDE581F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA3E57E43A665A25A2E84F85B490A63 /* LANTestTwo-dummy.m in Sources */,
+				4112D0371D98018DF7C8B37E44EE90A3 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C97D2FD9F90B75ED92C65D9EDC37FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3270269F91C4482D58DEDDD8640C88FD /* Pods-LANTestTwo_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		374CF1E2B74123843E610EEDAB03AF26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LANTestTwo;
+			target = EF809AEA656FECA8CF36361962DA6979 /* LANTestTwo */;
+			targetProxy = 5EA4CE91EC08B4D1C6806307262020CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EEB1CC81CFD0BA6A32FA306F7F8CA04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D107C558807CD6DC6F2DDD9A7D205289 /* LANTestTwo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LANTestTwo/LANTestTwo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LANTestTwo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LANTestTwo/LANTestTwo.modulemap";
+				PRODUCT_NAME = LANTestTwo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B0CD09195718E2AFD87E392256EF68F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9AFE934179FDA3026E5CC861AB94F92 /* Pods-LANTestTwo_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LANTestTwo_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LANTestTwo_Tests/Pods-LANTestTwo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LANTestTwo_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C43A90F66753850BFD0CB092BF09B71A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 206FACAF3A9F4A8AF62D547EC5EFC715 /* Pods-LANTestTwo_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LANTestTwo_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LANTestTwo_Example/Pods-LANTestTwo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LANTestTwo_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA36345EB8D2595135DF09FC8CBAA562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C575F6190D04C428C36E1B8CC69AB6E0 /* Pods-LANTestTwo_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LANTestTwo_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LANTestTwo_Example/Pods-LANTestTwo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LANTestTwo_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F35D31952DF4EA832A429EE1B74FA46D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 287CB165E3A7B7DEDC8C233A58498799 /* Pods-LANTestTwo_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LANTestTwo_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LANTestTwo_Tests/Pods-LANTestTwo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LANTestTwo_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FCD4357E2F5D7EE2A881DF1BA24E87D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D107C558807CD6DC6F2DDD9A7D205289 /* LANTestTwo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LANTestTwo/LANTestTwo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LANTestTwo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LANTestTwo/LANTestTwo.modulemap";
+				PRODUCT_NAME = LANTestTwo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E510DE1A05754888A45CBF3D6DA8487 /* Build configuration list for PBXNativeTarget "LANTestTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD4357E2F5D7EE2A881DF1BA24E87D8 /* Debug */,
+				1EEB1CC81CFD0BA6A32FA306F7F8CA04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B2E529070F73040C977944F3BD121D /* Build configuration list for PBXNativeTarget "Pods-LANTestTwo_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35D31952DF4EA832A429EE1B74FA46D /* Debug */,
+				B0CD09195718E2AFD87E392256EF68F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3941A837315FACDAAA319CBF96F3EB2 /* Build configuration list for PBXNativeTarget "Pods-LANTestTwo_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C43A90F66753850BFD0CB092BF09B71A /* Debug */,
+				DA36345EB8D2595135DF09FC8CBAA562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_LANTestTwo_Tests {
+  umbrella header "Pods-LANTestTwo_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
