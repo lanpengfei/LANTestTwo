@@ -1,5 +1,5 @@
 PODS:
-  - LANTestTwo (0.1.0)
+  - LANTestTwo (0.2.0)
 
 DEPENDENCIES:
   - LANTestTwo (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  LANTestTwo: d36e81865c8723ed92808d7c8dcaaacf7b0da49b
+  LANTestTwo: abefa7dbe0ff0b5b8ce683b2ead3db745b131884
 
 PODFILE CHECKSUM: 2862931b91bd92ea03618191fb0a07f78accf296
 
